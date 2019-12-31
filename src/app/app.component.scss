@@ -1,0 +1,28 @@
+.head {
+    grid-area: head;
+    background-color: snow
+  }
+  .col1 {
+    grid-area: col1;
+    background-color: cornsilk
+  }
+  .col2 {
+    grid-area: col2;
+    background-color: honeydew;
+  }
+  .col3 {
+    grid-area: col3;
+  }
+  .foot {
+    grid-area: foot;
+    background-color: mintcream
+  }
+  .grid1 {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr ;
+    // grid-template-rows: 100px 200px 100px;
+      grid-template-areas:
+      "head head head"
+      "col1 col2 col3"
+      "foot foot foot";
+  }

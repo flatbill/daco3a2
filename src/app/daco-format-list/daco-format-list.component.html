@@ -1,0 +1,86 @@
+
+<span>==hello from daco-format-list.component.html==</span>
+<div class="grid3">
+  <span class=g3head>Fmt</span>
+  <span class=g3head >Name</span>
+  <ng-container *ngFor="let f of dacoFormatList">
+    <span class=g3c1>{{f.formatKey}}</span>
+    <span class=g3c2>{{f.formatName}}</span>
+  </ng-container> 
+</div>
+
+
+<!-- failed experiments dec 2019 -->
+<!-- <div class=gridWrapper3>
+    <span class=head1>Fmt</span>
+    <span class=head2>Name</span>
+
+    <span class=col1>aaa</span>
+    <span class=col2>aaaaa</span>
+    <span class=cc1>bbb</span>
+    <span class=cc2>bbbbb</span>
+    <span class=cc1>ccc</span>
+    <span class=cc2>cccc</span>
+    <span class=cc1>ddd</span>
+    <span class=cc2>dddd dddd dddd dddd dddd dddd dddd</span>
+  </div>   -->
+  <!-- end gridWrapper3 -->
+   
+    <!-- <div class=col1>
+        <div  *ngFor="let f of dacoFormatList">
+           {{f.formatKey}}
+        </div>
+    </div>
+
+  <div class="col2 ">
+    <div class=trunc2  *ngFor="let f of dacoFormatList">
+       <span >{{f.formatName}} </span>
+    </div>
+  </div> -->
+
+
+
+
+<!-- <div  *ngFor="let f of dacoFormatList">
+   <span class=cc1>{{f.formatKey}}</span>
+   <span class=cc2>{{f.formatName}}</span>
+</div> -->
+
+
+
+
+    <!-- <ng-container *ngFor="let f of dacoFormatList">
+      <div class="col1" >
+        <p>{{f.formatKey}}</p>
+      </div>
+      <div class="col2" >
+        <p>{{f.formatName}}</p>
+      </div>     
+    </ng-container> -->
+ 
+
+
+
+
+<!-- <div class=grid>
+<span class="grid_item">rat1</span>
+<span class="grid_item">rat2</span> 
+<span class=grid_item>rat3</span> 
+<span class=grid_Item>rat4</span> 
+</div> -->
+
+
+<!-- <div class="grid-container">
+  <div class="item1">111</div>
+  <div class="item2">2</div>
+  <div class="item1">311</div>  
+  <div class="item2">4</div>
+  <div class="item1">511</div>
+  <div class="item2">6</div>
+  <div class="item1">711</div>
+  <div  *ngFor="let f of dacoFormatList">
+    <span class=item1>{{f.formatKey}}</span>
+    <span class=item2>{{f.formatName}}</span>
+ </div> 
+</div> -->
+
